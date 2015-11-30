@@ -16,13 +16,13 @@ var User = mongoose.model('User',{
 });
 var Scout = mongoose.model('Scout',{
     groupName:String,
-	role:String,
+    role:String,
     firstName:String,
     lastName:String,
     scoutName:String,
     mobile:String,
     email:String,
-    weeklyStatus:[Boolean],
+    weeklyStatus:[53][Boolean],
     parentName:String,
     parentMobile:String,
     parentEmail:String,   
