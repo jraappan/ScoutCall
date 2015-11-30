@@ -22,7 +22,7 @@ var Scout = mongoose.model('Scout',{
     scoutName:String,
     mobile:String,
     email:String,
-    weeklyStatus:[53][Boolean],
+    weeklyStatus:[Boolean],
     parentName:String,
     parentMobile:String,
     parentEmail:String,   
