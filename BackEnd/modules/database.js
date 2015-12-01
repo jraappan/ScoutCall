@@ -4,7 +4,7 @@ mongoose.connect('mongodb://localhost:27017/scoutCallDb', connectionStatus);
 
 function connectionStatus(err,ok){
     if(err){
-        console.log(er.message);
+        console.log(err.message);
     } else{
         console.log("Connected");
     }
